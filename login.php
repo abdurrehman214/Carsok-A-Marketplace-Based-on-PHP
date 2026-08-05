@@ -1,11 +1,5 @@
 <?php
 //  CarSoko Pakistan — login.php
-//  Features:
-//    • Email + password login
-//    • Google OAuth (with role modal for new users)
-//    • Forgot password → temporary password emailed via PHPMailer SMTP
-//    • Buyer → index.php, Seller/Dealer → dashboard.php
-// ============================================================
 require_once 'connection.php';
 
 if (Auth::check()) {
