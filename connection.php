@@ -4,7 +4,7 @@
 // ============================================================
 
 // ============================================================
-// DATABASE CREDENTIALS — InfinityFree
+// DATABASE CREDENTIALS
 // ============================================================
 define('DB_HOST',   '');
 define('DB_USER',   '');
@@ -25,7 +25,7 @@ define('THUMB_WIDTH',      400);
 define('THUMB_HEIGHT',     300);
 define('SESSION_LIFETIME', 7 * 24 * 3600);
 define('CSRF_TOKEN_NAME',  '_csrf');
-define('ADMIN_PASSWORD',   'AR@12345');
+define('ADMIN_PASSWORD',   'BETTER LUCK NEXT TIME');
 
 // ============================================================
 // ERROR HANDLING
@@ -146,8 +146,7 @@ class DB {
             return 0;
         }
     }
-
-    /** Get the last inserted ID directly */
+    
     public static function lastId(): int {
         $pdo = self::conn();
         if (!$pdo) return 0;
