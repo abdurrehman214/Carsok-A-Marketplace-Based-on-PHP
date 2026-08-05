@@ -1,7 +1,4 @@
 <?php
-//  CarSoko Pakistan — forget.php
-//  - Handle Forgot Password flow
-// ============================================================
 require_once 'connection.php';
 
 if (Auth::check()) {
