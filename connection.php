@@ -6,10 +6,10 @@
 // ============================================================
 // DATABASE CREDENTIALS — InfinityFree
 // ============================================================
-define('DB_HOST',   'sql210.infinityfree.com');
-define('DB_USER',   'if0_41929641');
-define('DB_PASS',   'Khanani1234');
-define('DB_NAME',   'if0_41929641_carsoko');
+define('DB_HOST',   '');
+define('DB_USER',   '');
+define('DB_PASS',   '');
+define('DB_NAME',   '');
 define('APP_ENV',   'production');
 define('APP_DEBUG', true);
 define('BASE_URL',  'https://CARSOKO.page.gd');
