@@ -1,8 +1,4 @@
 <?php
-// ============================================================
-// CarSoko Pakistan - Homepage (index.php)
-// PHP/MySQL Car Marketplace | InfinityFree Compatible
-// ============================================================
 require_once 'connection.php';
 
 // --- FETCH FEATURED LISTINGS ---
